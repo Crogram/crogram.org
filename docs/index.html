@@ -47,13 +47,40 @@
     <div class="container">
         <nav class="navbar navbar-default">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="index.html">程江<sup>&reg;</sup>开源项目中心</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <!-- <div class="navbar-text">欢迎访问程江开源项目中心！</div> -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">首页</a></li>
+                    <li><a href="donation.html">捐助</a></li>
+                    <!-- <li><a href="sponsors.html">捐助公示</a></li> -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">链接 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://crogram.com" target="_blank">程江<sup>&reg;</sup>科技</a></li>
+                            <li><a href="https://crogram.com/trademark.html" target="_blank">商标声明</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">程江科技旗下</li>
+                            <li><a href="https://crogram.org/" target="_blank">程江开源</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
     </div>
+
     <div class="container">
         <div class="alert alert-success">
-            <p>欢迎开源软件开发者加入并一起完善项目，同时也欢迎赞助和<a href="donation.html">捐助</a>项目，以期为大家提供更多便利好用的软件产品。</p>
+            <p>欢迎访问程江开源项目中心！</p>
+            <p>我们邀请热爱开源的开发者加入并一起完善项目，同时也欢迎爱心人士 <a href="donation.html">赞助</a> 我们，以期为大家提供更多便利好用的软件产品。</p>
             <p>我们的项目主要应用到的技术栈有：PHP、Python、HTML、CSS、JS、Linux、MySQL、Tkinter、VueJS、uni-app等。</p>
         </div>
         <div class="row">
@@ -63,13 +90,44 @@
                         <h3 class="panel-title">开源项目</h3>
                     </div>
                     <div class="panel-body">
-                        <p><a href="https://crogram.org">程江开源项目中心</a>，<a href="https://github.com/crogram" target="_blank">GitHub</a></p>
-                        <p><a href="https://doufox.com" target="_blank">Doufox 开源网站管理系统</a>，<a href="https://github.com/doufox/doufox" target="_blank">GitHub</a></p>
-                        <p><a href="https://github.com/SMTPHub/SMTPHub" target="_blank">SMTPHub 程江统一邮件发送系统</a>，<a href="https://github.com/SMTPHub/SMTPHub" target="_blank">GitHub</a></p>
-                        <p><a href="https://inpanel.org" target="_blank">InPanel 开源 Linux 服务器管理工具</a>，<a href="https://github.com/inpanel/inpanel" target="_blank">GitHub</a></p>
-                        <p><a href="https://uiisc.org" target="_blank">UIISC 开源虚拟主机管理系统</a>，<a href="https://github.com/uiisc/uiisc" target="_blank">GitHub</a></p>
-                        <p><a href="http://php-app-shorturl.uiisc.com" target="_blank">PHP 轻量级短链接系统</a>，<a href="https://github.com/crogram/php-app-shorturl" target="_blank">GitHub</a></p>
-                        <p><a href="http://favicon.uiisc.com" target="_blank">获取网站Favicon图标API服务</a>，<a href="https://github.com/jksdou/php-get-favicon" target="_blank">GitHub</a></p>
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <th width="80">项目</th>
+                                    <th width="150">介绍</th>
+                                    <th width="50">链接</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="https://crogram.org">CROGRAM</a></td>
+                                    <td>程江开源项目中心</td>
+                                    <td><a href="https://github.com/crogram" target="_blank">GitHub</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://doufox.org" target="_blank">Doufox</a></td>
+                                    <td>程江网站内容管理系统</td>
+                                    <td><a href="https://github.com/doufox/doufox" target="_blank">GitHub</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://github.com/SMTPHub/SMTPHub" target="_blank">SMTPHub</a></td>
+                                    <td>程江统一邮件发送系统</a></td>
+                                    <td><a href="https://github.com/SMTPHub/SMTPHub" target="_blank">GitHub</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://inpanel.org" target="_blank">InPanel</a></td>
+                                    <td>开源 Linux 服务器管理工具</td>
+                                    <td><a href="https://github.com/inpanel/inpanel" target="_blank">GitHub</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://uiisc.org" target="_blank">UIISC</a></td>
+                                    <td>开源虚拟主机管理系统</td>
+                                    <td><a href="https://github.com/uiisc/uiisc" target="_blank">GitHub</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- <p><a href="http://php-app-shorturl.uiisc.com" target="_blank">PHP 轻量级短链接系统</a>，<a href="https://github.com/crogram/php-app-shorturl" target="_blank">GitHub</a></p>
+                        <p><a href="http://favicon.uiisc.com" target="_blank">获取网站Favicon图标API服务</a>，<a href="https://github.com/jksdou/php-get-favicon" target="_blank">GitHub</a></p> -->
                     </div>
                     <!-- <div class="panel-footer"></div> -->
                 </div>
@@ -80,43 +138,99 @@
                         <h3 class="panel-title">筹划中</h3>
                     </div>
                     <div class="panel-body">
-                        <p><a href="https://douftp.org/server.html" target="_blank">Douftp Server 开源 FTP 服务端软件</a>，<a href="https://github.com/douftp/douftp-server" target="_blank">Github</a></p>
-                        <p><a href="https://douftp.org/client.html" target="_blank">Douftp Client 开源 FTP 客户端软件</a>，<a href="https://github.com/douftp/douftp-client" target="_blank">Github</a></p>
-                        <p><a href="https://pythub.org" target="_blank">Python GUI 软件项目合集</a>，<a href="https://github.com/crogram-pythub/pythub.org" target="_blank">GitHub</a></p>
-                        <p><a href="https://pythub.org" target="_blank">Pythub 客户端</a>，<a href="https://github.com/crogram-pythub/pythub" target="_blank">GitHub</a></p>
-                        <p><a href="https://inpanel.org/desktop/" target="_blank">InPanel 桌面客户端</a>， <a href="https://github.com/inpanel/inpanel-desktop" target="_blank">GitHub</a></p>
-                        <p><a href="https://inpanel.org/mobile/" target="_blank">InPanel 移动客户端</a>，<a href="https://github.com/inpanel/inpanel-mobile" target="_blank">GitHub</a></p>
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <th width="80">项目</th>
+                                    <th width="150">介绍</th>
+                                    <th width="50">链接</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="https://douftp.org/server.html" target="_blank">Douftp Server</a></td>
+                                    <td>开源 FTP 服务端软件</a></td>
+                                    <td><a href="https://github.com/douftp/douftp-server" target="_blank">GitHub</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://douftp.org/client.html" target="_blank">DouFTP</a></td>
+                                    <td>开源 FTP 客户端软件</a></td>
+                                    <td><a href="https://github.com/douftp/douftp-client" target="_blank">GitHub</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://inpanel.org/desktop/" target="_blank">InPanel Desktop</a></td>
+                                    <td>InPanel 桌面版</a></td>
+                                    <td><a href="https://github.com/inpanel/inpanel-desktop" target="_blank">GitHub</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://inpanel.org/desktop/" target="_blank">InPanel Client</a></td>
+                                    <td>InPanel 桌面客户端</a></td>
+                                    <td><a href="https://github.com/inpanel/inpanel-desktop" target="_blank">GitHub</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://inpanel.org/mobile/" target="_blank">InPanel Mobile</a></td>
+                                    <td>InPanel 移动客户端</td>
+                                    <td><a href="https://github.com/inpanel/inpanel-mobile" target="_blank">GitHub</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://pythub.org" target="_blank">Pythub</a></td>
+                                    <td>Python GUI 软件项目合集</td>
+                                    <td><a href="https://github.com/crogram-pythub/pythub.org" target="_blank">GitHub</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://pythub.org" target="_blank">Pythub Client</a></td>
+                                    <td>Pythub 桌面客户端</td>
+                                    <td><a href="https://github.com/crogram-pythub/pythub" target="_blank">GitHub</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#" target="_blank">DouName</a></td>
+                                    <td>企业域名资产管理系统</a></td>
+                                    <td><a href="https://github.com/DouName" target="_blank">GitHub</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#" target="_blank">待确定</a></td>
+                                    <td>企业服务器资产管理系统</a></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">友情链接</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">联系我们</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>电子邮箱：admin@crogram.org（我们使用了“<a href="https://exmail.qq.com/" target="_blank">腾讯企业邮基础版</a>”）</p>
+                        <p>Gitee: <a href="https://gitee.com/crogram" target="_blank">https://gitee.com/crogram</a></p>
+                        <p>GitHub: <a href="https://github.com/crogram" target="_blank">https://github.com/crogram</a></p>
+                        <p>项目运营主体: <a href="https://crogram.com" target="_blank" title="上海程江科技中心">程江科技</a></p>
+                        <p>项目维护者: <a href="https://github.com/jksdou" target="_blank" title="Jackson Dou">https://github.com/jksdou</a></p>
+                    </div>
+                </div>
             </div>
-            <div class="panel-body">
-                <p>
-                    <a href="https://free.uiisc.org" target="_blank">免费PHP虚拟主机</a> &bull;
-                    <a href="https://uinote.com" target="_blank">UINOTE</a> &bull;
-                    <a href="https://crogram.com" target="_blank" title="上海程江科技中心">程江科技</a> &bull;
-                    <a href="http://tools.crogram.net" target="_blank" title="程江在线工具网">在线工具大全</a>
-                </p>
-                <p>
-                    <a href="https://doudoudzj.com" target="_blank" title="唐钰豆豆的博客">唐钰豆豆</a> &bull;
-                    <a href="http://jksdou.cn" target="_blank" title="Jackson Dou">Jackson</a>
-                </p>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">联系我们</h3>
-            </div>
-            <div class="panel-body">
-                <p>电子邮箱：admin@crogram.org（我们使用了“<a href="https://exmail.qq.com/" target="_blank">腾讯企业邮基础版</a>”，基础版包含基础的邮件收发功能，虽是免费产品，但功能丰富使用体验很好，推荐给大家）</p>
-                <p>Gitee: <a href="https://gitee.com/crogram" target="_blank">https://gitee.com/crogram</a></p>
-                <p>GitHub: <a href="https://github.com/crogram" target="_blank">https://github.com/crogram</a></p>
-                <p>运营主体: <a href="https://crogram.com" target="_blank" title="上海程江科技中心">程江科技</a></p>
-                <p>项目维护者: <a href="https://github.com/jksdou" target="_blank" title="Jackson Dou">https://github.com/jksdou</a></p>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">友情链接</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            <a href="https://free.uiisc.org" target="_blank">免费PHP虚拟主机</a> &bull;
+                            <a href="https://uinote.com" target="_blank">UINOTE</a> &bull;
+                            <a href="https://crogram.com" target="_blank" title="上海程江科技中心">程江科技</a> &bull;
+                            <a href="http://tools.crogram.net" target="_blank" title="程江在线工具网">在线工具大全</a>
+                        </p>
+                        <p>
+                            <a href="https://doudoudzj.com" target="_blank" title="唐钰豆豆的博客">唐钰豆豆</a> &bull;
+                            <a href="http://jksdou.cn" target="_blank" title="Jackson Dou">Jackson</a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
